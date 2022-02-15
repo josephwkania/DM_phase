@@ -13,7 +13,7 @@ DESCRIPTION = "Find the best Dispersion Measure by using FFT phase angle."
 URL = "https://github.com/danielemichilli/DM_phase"
 EMAIL = "danielemichilli@gmail.com"
 AUTHOR = "Andrew Seymour and Daniele Michilli"
-REQUIRES_PYTHON = ">=3.6.*"
+REQUIRES_PYTHON = ">=2.7, <4"
 VERSION = False
 
 # What packages are required for this module to be executed?
