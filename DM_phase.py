@@ -885,7 +885,7 @@ def get_DM(
     f_channels = f_channels[low_ch_idx:up_ch_idx]
 
     nchan = waterfall.shape[0]
-    nbin = waterfall.shape[1] / 2
+    nbin = waterfall.shape[1] // 2
     Pow_list = np.zeros([nbin, DM_list.size])
     for i, DM in enumerate(DM_list):
         waterfall_dedisp = _dedisperse_waterfall(
